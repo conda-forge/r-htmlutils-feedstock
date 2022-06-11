@@ -1,4 +1,4 @@
-{% set version = '0.1.7' %}
+{% set version = "0.1.8" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/HTMLUtils_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/HTMLUtils/HTMLUtils_{{ version }}.tar.gz
-  sha256: 812217968d7924806c63974108434ae534883ea6775c2d4db350fdaf6401c517
+  sha256: 3febe6d23c53ae0923ed0000586ae795de27a4132aa017b5490cf7bda267d0c9
 
 build:
-  merge_build_host: True  # [win]
-  number: 1003
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
