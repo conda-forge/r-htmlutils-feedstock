@@ -1,11 +1,11 @@
-About r-htmlutils
-=================
+About r-htmlutils-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-htmlutils-feedstock/blob/main/LICENSE.txt)
 
 Home: https://cran.r-project.org/web/packages/HTMLUtils/index.html
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-htmlutils-feedstock/blob/main/LICENSE.txt)
 
 Summary: Facilitates automated HTML report creation, in particular framed HTML pages and dynamically sortable tables.
 
